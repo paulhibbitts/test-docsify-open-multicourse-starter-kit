@@ -1,7 +1,7 @@
 # 💻
 
 <h1 id="cover-heading">
-  My Docsify Open MultiCourse Hub
+  Docsify Open MultiCourse Hub
 </h1>
 
 [CPT363-1](cpt363-1/home.md)
