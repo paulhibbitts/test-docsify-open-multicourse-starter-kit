@@ -11,5 +11,3 @@
 - [![Quizzes](https://icongr.am/fontawesome/check-circle.svg?size=16&color=808080) Quizzes](https://canvas.sfu.ca/courses/44038/quizzes)
 - [![Class Discussions](https://icongr.am/fontawesome/comments-o.svg?size=16&color=808080) Class Discussions](https://canvas.sfu.ca/courses/44038/discussion_topics)
 - [![Syllabus](https://icongr.am/fontawesome/list.svg?size=16&color=808080) Syllabus](https://canvas.sfu.ca/courses/44038/assignments/syllabus)
-- **Project Documentation**
-  - [ReadMe](https://github.com/hibbitts-design/docsify-open-course-starter-kit/blob/main/README.md)
