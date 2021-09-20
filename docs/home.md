@@ -1,4 +1,4 @@
-# 💻 Docsify Open MultiCourse Hub
+# Docsify Open MultiCourse Hub
 
 ---
 
