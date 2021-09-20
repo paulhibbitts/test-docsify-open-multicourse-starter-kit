@@ -2,7 +2,7 @@
 
 ---
 
-![MultiCourse Hub](../../assets/images/home/diane-helentjaris-6lhOGX0EobE-unsplash.jpg ':class=banner-image')
+![MultiCourse Hub](assets/images/home/diane-helentjaris-6lhOGX0EobE-unsplash.jpg ':class=banner-image')
 
 ## [CPT363-1](cpt363-1/home.md)
 A short description of the course would go here.
