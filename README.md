@@ -6,11 +6,11 @@
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Docsify Discord Chat" />
 </a>
 
-> A MultiCourse variation of the Docsify Open Course Starter Kit to quickly create a Markdown-based open multi-course site with the site generator [Docsify](https://docsify.js.org). Global navigation elements can be hidden for seamlessly embedding pages (i.e., into an LMS). Includes an optional "Edit this Page" link.
+> A MultiCourse variation of the [Docsify Open Course Starter Kit](https://github.com/hibbitts-design/docsify-open-course-starter-kit) to quickly create a Markdown-based open multi-course site with the site generator [Docsify](https://docsify.js.org). Global navigation elements can be hidden for seamlessly embedding pages (i.e., into an LMS). Includes an optional "Edit this Page" link.
 
-📸 Docsify Open Course Screenshots
+📸 Docsify Open MultiCourse Screenshots
 ---
-![ Docsify Open MultiCourse Starter Kit](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/smartmockups_ktvmqftw.png)
+![ Docsify Open MultiCourse Starter Kit](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/smartmockups_kua6uxjd.png)
 _Figure 1. Docsify Open MultiCourse Starter Kit. Explore a demo at [hibbitts-design.github.io/demo-docsify-open-multicourse-starter-kit/](https://hibbitts-design.github.io/demo-docsify-open-multicourse-starter-kit/#/)_
 
 🚀 GitHub Pages Quickstart
@@ -47,7 +47,9 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 3. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
 ![ Editing Your Docsify Site Pages 3](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-page-edit-3.png)
 
-[Learn more about creating pages in Docsify.](https://docsify.js.org/#/more-pages)
+💡 Tips and More Info  
+* [Learn more about creating pages in Docsify](https://docsify.js.org/#/more-pages)
+* [Moving and renaming files on GitHub](https://github.blog/2013-03-15-moving-and-renaming-files-on-github/)
 
 🔗 Activating the “Edit this Page” Link on Your Docsify Site
 ---   
@@ -76,7 +78,9 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 3. You will now be able to edit your Docsify site (in the `docs` folder) using the desktop editor of your choice (e.g. [Atom](https://atom.io/))
 4. Use GitHub Desktop to push any changes to your repository.  
 
-[Learn more about using GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project).
+💡 Tips and More Info  
+
+* [Learn more about using GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project)
 
 You can also clone (i.e download) a copy of your repository to your computer and [run Docsify locally](https://docsify.js.org/#/quickstart) to preview your site. See the below video for details.
 
