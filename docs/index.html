@@ -161,8 +161,8 @@
             name              : 'Docsify Open MultiCourse Starter Kit',
             homepage          : 'home.md',
             onlyCover         : true,
-            loadSidebar       : !(getURLParameterByName(['standalone','embedded']) || standalone),
-            loadNavbar        : !(getURLParameterByName(['standalone','embedded']) || standalone),
+            loadSidebar       : !(getURLParameterByName(['standalone','embedded']) || standalone || true),
+            loadNavbar        : !(getURLParameterByName(['standalone','embedded']) || standalone || true),
             externalLinkTarget: (getURLParameterByName(['standalone','embedded'],'_top','_blank')),
 
             // SIDEBAR NAVIGATION
@@ -227,7 +227,7 @@
         document.body.appendChild(editCSS);
       }
     </script>
-    
+
     <!-- Customizable Theme-->
     <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
 
