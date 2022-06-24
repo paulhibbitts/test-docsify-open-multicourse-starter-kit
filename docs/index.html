@@ -160,6 +160,7 @@
             // -----------------------------------------------------------------
             name              : 'Docsify Open MultiCourse Starter Kit',
             homepage          : 'home.md',
+            onlyCover         : true,
             loadSidebar       : !(getURLParameterByName(['standalone','embedded']) || standalone || false),
             loadNavbar        : !(getURLParameterByName(['standalone','embedded']) || standalone || false),
             externalLinkTarget: (getURLParameterByName(['standalone','embedded'],'_top','_blank')),
@@ -183,7 +184,7 @@
 
             toc: {
               scope: '.markdown-section',
-              headings: 'h2, h3',
+              headings: 'h2',
               title: 'Table of Contents',
             },
 
