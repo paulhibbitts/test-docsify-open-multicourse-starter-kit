@@ -84,7 +84,7 @@ Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.
 
 You can also clone (i.e download) a copy of your repository to your computer and [run Docsify locally](https://docsify.js.org/#/quickstart) to preview your site. See the below video for details.
 
-🖼 Embedding your Docsify Page Content into Other Systems
+🧩 Embedding your Docsify Page Content into Other Systems
 ---  
 
 ![ Docsify Open Course Page Embedded into the Canvas LMS](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-canvas.png)
@@ -96,13 +96,33 @@ To only display Docsify page content, add the following to a Docsify page URL:
 
 `?embedded=true`
 
-For example, https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources would display a standard Docsify page while https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true would only display page content (i.e., no sidebar or optional navbar is shown).
+Example standard Docsify page:  
+https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources  
+
+Example Docsify page displaying only page content (i.e., no sidebar is shown):  
+https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true  
+
+Please note that Docsify page-to-page navigation is not currently supported with the ‘embedded’ URL parameter. This functionality, however, is available by using the [Docsify-This](https://docsify-this.net/#/) project to display the same Markdown pages.
+
+To optionally show a page Table of Contents (based on included Headers), use the following:
+
+`?embedded=true&toc=true`
+
+Example Docsify page displaying only page content:  
+https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true  
+
+Example Docsify page displaying only page content with a page Table of Contents included:  
+https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&toc=true  
 
 To optionally hide the 'Edit this Page' link, use the following:
 
 `?embedded=true&hidegitlink=true`
 
-For example, https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources would display a standard Docsify page while https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&hidegitlink=true would only display page content (i.e., no sidebar or optional navbar is shown) and also hide the 'Edit this Page' link.
+Example Docsify page displaying only page content:  
+https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true  
+
+Example Docsify page displaying only page content with the 'Edit this Page' link hidden:  
+https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&hidegitlink=true  
 
 🛠 Using an LMS to Host a Docsify Open Course Site
 ---
