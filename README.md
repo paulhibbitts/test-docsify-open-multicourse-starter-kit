@@ -183,8 +183,7 @@ An alternative to installing Docsify locally (as described following this sectio
 
 📼 Video Walkthrough of Local Docsify Install/Config
 ---
-[![Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran](youtube.png)](https://www.youtube.com/watch?v=TV88lp7egMw)  
-_Video 1. Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran_
+[![Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/youtube.png)](https://www.youtube.com/watch?v=TV88lp7egMw)  
 
 🙇‍Credits and Special Thanks
 ---
