@@ -16,7 +16,7 @@
   <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-600italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="assets/fonts/source-sans-3-v15-latin/source-sans-3-v15-latin-700italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  
+
   <!-- Core Theme -->
   <link rel="stylesheet" href="https://docsify-preview-orhet61nc-docsifyjs.vercel.app/dist/themes/core.min.css" />
 
@@ -32,32 +32,32 @@
   <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
   <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
 
-    <style>
-      :root {
-  
-        --font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif; */
+  <style>
+    :root {
 
-        --line-height: 1.4;
-        --font-size: 18px;
-        --font-weight: 400;
+      --font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif; */
 
-        --content-max-width: 960px;
+      --line-height: 1.4;
+      --font-size: 18px;
+      --font-weight: 400;
 
-        --heading-font-weight: 400;
+      --content-max-width: 960px;
 
-        --theme-color: #0374B5;
-        --link-color: #0374B5;
-        --link-color-hover: var(--link-color);
-        --link-underline-thickness: 1px;
-        --link-underline-thickness-hover: var(--link-underline-thickness);
+      --heading-font-weight: 400;
 
-        --blockquote-color: var(--color-text);
-        --blockquote-bg: var(--color-mono-1);
+      --theme-color: #0374B5;
+      --link-color: #0374B5;
+      --link-color-hover: var(--link-color);
+      --link-underline-thickness: 1px;
+      --link-underline-thickness-hover: var(--link-underline-thickness);
 
-        --docsifytabs-tab-color: var(--color-mono-max);
-  
-      }
-    </style>
+      --blockquote-color: var(--color-text);
+      --blockquote-bg: var(--color-mono-1);
+
+      --docsifytabs-tab-color: var(--color-mono-max);
+
+    }
+  </style>
 
 </head>
 
@@ -75,7 +75,7 @@
 
     // Set ToC to true to permanently show page Table of Contents (Sidebar and Navbar must also be hidden)
     var ToC = false;
-    
+
     // Set navbar to true to permanently override the hiding of the Navbar when displaying as standalone
     var navbar = false;
 
@@ -128,7 +128,7 @@
       homepage: 'home.md',
       onlyCover: true,
       loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
-      loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar ||false),
+      loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar || false),
       externalLinkTarget: standalone ? '_top' : (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
       loadFooter: (getURLParameterByName('footer') || footer || false),
 
@@ -160,9 +160,9 @@
       // CUSTOM PLUGINS
       // -----------------------------------------------------------------
       plugins: [
-        function (hook, vm) {
+        function(hook, vm) {
 
-          hook.afterEach(function (html, next) {
+          hook.afterEach(function(html, next) {
             // Invoked each time after the Markdown file is parsed.
             // beforeEach and afterEach support asynchronous。
             // ...
@@ -218,7 +218,7 @@
                 }
               }
             }
-              
+
             /* JS to change Embedly cards to light or dark theme based on system setting when using the light + dark theme (uncomment to use) */
             /*
             const embeds = Array.from(htmlElement.querySelectorAll('.embedly-card'))
@@ -244,12 +244,12 @@
 
             }
             */
-            
+
             next(htmlElement.innerHTML);
 
           });
 
-          hook.beforeEach(function (html) {
+          hook.beforeEach(function(html) {
             if (/githubusercontent\.com/.test(vm.route.file)) {
               url = vm.route.file
                 .replace('raw.githubusercontent.com', 'github.com')
@@ -268,15 +268,15 @@
           });
 
           // Invoked on each page load after new HTML has been appended to the DOM
-          hook.doneEach(function () {
+          hook.doneEach(function() {
             var hasEmbedly = document.getElementsByClassName('embedly-card');
             if (hasEmbedly.length > 0) {
-                // console.log("Load Embedly");
-                // elements with class "embedly-card" exist
-                var script = document.createElement('script');
-                script.type = 'text/javascript';
-                script.src = 'https://cdn.embedly.com/widgets/platform.js';    
-                document.head.appendChild(script);
+              // console.log("Load Embedly");
+              // elements with class "embedly-card" exist
+              var script = document.createElement('script');
+              script.type = 'text/javascript';
+              script.src = 'https://cdn.embedly.com/widgets/platform.js';
+              document.head.appendChild(script);
             }
 
             // Remove optional ToC area if full width header image is present
@@ -336,7 +336,7 @@
       root_theme.style.setProperty('--content-margin-inline', '14px');
     }
   </script>
-  
+
   <!-- Search Box Plugin -->
   <!-- <script src="assets/js/search.min.js"></script> -->
   <!-- <script src="https://docsify-preview-orhet61nc-docsifyjs.vercel.app/dist/plugins/search.min.js"></script> -->
